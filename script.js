@@ -14,12 +14,3 @@ var nav = new mapboxgl.NavigationControl();
 map.addControl(nav, 'bottom-right');
 
 
-//////Load the data
-
-map.on('load', function() {
-  console.log('A sourcedata event occurred.');
-  map.addSource('PROFEPA-ciaf4p', {
-  type: 'vector',
-  url: 'mapbox://airy1991.1gemffky'
-  });
-});
