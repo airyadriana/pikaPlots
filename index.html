@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script               src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+    <title>pikaPlots</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="flex_container">
+      
+			<!-- Header / Hero image -->
+			
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Niwot Ridge LTER: Pika Project Sites</h1>
+        </div>
+      </div>
+    
+      <!--content-->      
+      <div class="content flex_expand">
+        <div class="sidebar">
+          <div id="legend">
+            <h2>Legend</h2>
+            <div class="legend-items">
+              <div id="state-legend" class="legend">
+                <div><span style="background-color: #0457f1"></span>Even Years</div>
+                <div><span style="background-color: #ce04d2"></span>Odd Years</div>
+                <div><span style="background-color: #100f0f"></span>Every Year</div>
+                <p> Symbols with a white halo indicate
+                  sites located in the Green Lakes Valley area inside the watershed. Permission to enter is required.
+                </p>
+               
+                </div>    
+            </div>
+          </div>
+          <div id="About">
+            <h2>About this map</h2>
+            <p>
+              ####
+            <p>
+          </div>
+        </div>
+
+        <div class="main">
+          <div id="map">
+            <div id="map">
+              <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.js"></script>
+              <link
+                rel="stylesheet"
+                href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.css"
+                type="text/css"
+              />
+            <div id="comparison-container">
+              <div id="before" class="map"></div>
+              <div id="after" class="map"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+			</div>
+
+      <div class="footer flex_fixed">
+        <h2>
+          References
+        </h2>
+        <p class ="biografia">
+        </p>
+        <p class="biografia">
+          
+        </p>
+			</div>
+
+
+      
+      
+
+      
+    </div>
+    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
