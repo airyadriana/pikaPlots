@@ -36,34 +36,47 @@
                 </div>    
             </div>
           </div>
-          <div id="About">
-            <h2>About this map</h2>
-            <p>
-              ####
-            <p>
-          </div>
+
+
+          <div id="layers">
+						<h2>Layers</h2>
+            <div class="layer-toggles-container">
+              <div class="layer-toggles-row">
+                <input type="checkbox" id="layer-toggle-evenPlots" checked />
+                <label for="layer-toggle-evenPlots">Even Years</label>
+              </div>
+              <div>
+                <input type="checkbox" id="layer-toggle-oddPlots" checked />
+                <label for="layer-toggle-oddPlots"> Odd Years</label>
+              </div>
+              <div>
+                <input type="checkbox" id="layer-toggle-everyYear" checked />
+                <label for="layer-toggle-everyYear"> Every Year</label>
+              </div>
+            </div>
+					</div>
+          
+
+
+
+
+
         </div>
 
         <div class="main">
           <div id="map">
-
-            
-            
             <div id="map">
-              <script       src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.js"></script>
+              <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.js"></script>
               <link
-              rel="stylesheet"
-              href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.css"
-              type="text/css"
+                rel="stylesheet"
+                href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.css"
+                type="text/css"
               />
-              <div id="comparison-container">
-                <div id="before" class="map"></div>
-                <div id="after" class="map"></div>
-              </div>
+            <div id="comparison-container">
+              <div id="before" class="map"></div>
+              <div id="after" class="map"></div>
             </div>
-
-
-
+            </div>
           </div>
         </div>
 			</div>
